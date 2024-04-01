@@ -5,23 +5,27 @@ Pyrogram bot to mine telegram data from groups and keep them stored within multi
 
 ## The plan
 
-# Monitoring
+### Monitoring
 
 Each folder is an individual telegram account.
 
-Each account will have the following:
-Avatars - Folder
-Username_logs - File (append)
-Bio_logs - File (append)
-Phone_number_logs - File (append)
-Name_logs - File (append)
+- Each account will have the following:
+  - Avatars - Folder
+  - Username_logs - File (append)
+  - Bio_logs - File (append)
+  - Phone_number_logs - File (append)
+  - Name_logs - File (append)
 
-# Alerting
+### Alerting
 
-We will flag users who change their username, bio, phone number, or name. This will easily reveal people who are using telegram for other purposes.
+We will flag users who change their username, bio, phone number, or name. This will easily reveal people who are potentially using telegram for other purposes.
 
 
-# Monitoring Locations
+### Usecases
+
+Information gathering for Money exchange groups and other potential places where people might get scammed.
+
+### Monitoring Locations
 
 Monitor all groups, channels, and private chats.
 We could also create bait telegram channels to attract people to join and eventually monitor them.
