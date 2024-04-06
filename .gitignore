@@ -1,3 +1,6 @@
 /user_data
 .env
 *.session
+phone_numbers.txt
+/user_data_avatars
+/old_user_data
